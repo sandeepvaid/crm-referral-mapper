@@ -1,0 +1,52 @@
+# ---- Python bytecode / caches ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---- Packaging / build artifacts ----
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ---- Test / coverage / type-checker caches ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Local database files (SQLite) ----
+*.db
+*.sqlite
+*.sqlite3
+labra.db
+
+# ---- Environment / secrets ----
+.env
+.env.*
+*.local
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Confidential assessment prompt (do not publish) ----
+assissment-doc/
